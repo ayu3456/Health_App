@@ -5,9 +5,7 @@ import Hamburger from "hamburger-react";
 import { useState } from "react";
 
 function Header() {
-  // const [isSmallScreen, setSmallScreen] = useState(false);
-  // // setSmallScreen(window.innerWidth < 768);
-  // console.log(window.innerWidth < 768);
+  
   const [isOpen, setOpen] = useState(false);
   return (
     <>

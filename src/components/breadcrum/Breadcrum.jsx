@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Breadcrum.css";
 import { useLocation } from "react-router-dom";
 
-function Breadcrum() {
+function Bread() {
   const path = useLocation().pathname;
   const [isResultPage, setIsResultPage] = useState(false)
   useEffect(() => {
@@ -27,4 +27,4 @@ function Breadcrum() {
   );
 }
 
-export default Breadcrum;
+export default Bread;
